@@ -1,0 +1,24 @@
+.nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #334499;
+   padding: 1rem 2rem;
+   color: white;
+}
+.nav_brand{
+     display: flex;
+     align-items: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      gap: 0.5rem;
+}
+.link{
+    margin-left: 1rem;
+    text-decoration: none;
+    color: white;
+}
+.link--active{
+    border-bottom: 2px solid #fffffc;
+}
+
